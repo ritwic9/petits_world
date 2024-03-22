@@ -6,9 +6,9 @@ import Footer from "../components/Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen w-screen mx-max my-3">
+    <div className="h-screen w-screen">
       <Header />
-      <main className="">{children}</main>
+      <main className="lg:mx-max lg:my-3">{children}</main>
       <Footer />
     </div>
   );

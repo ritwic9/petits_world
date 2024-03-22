@@ -17,10 +17,11 @@ module.exports = {
     screens: {
       sm: "576px",
       md: "768px",
-      lg: "992px",
-      xl: "1200px",
+      lg: "1024px",
+      xl: "1280px",
     },
     colors: {
+      primary: "#f5e5dc",
       button: "#F15956",
       white: "#FFFFFF",
       black: "#000000",
