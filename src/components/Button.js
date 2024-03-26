@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ label, onClick, disabled, type, className }) => {
+const Button = ({ styles, label, onClick, disabled, type }) => {
   return (
     <button
-      className="text-md text-white bg-button rounded-full px-5 py-1 shadow-lg font-semibold"
+      className={styles}
       type={type}
       onClick={onClick}
       disabled={disabled}
