@@ -4,9 +4,9 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Layout = ({ children }) => {
+const LayoutWithoutBg = ({ children }) => {
   return (
-    <div className="bg-repeat-y bg-[url('../images/svg/bg.svg')] bg-auto lg:bg-contain">
+    <div className="">
       <Header />
       <main>{children}</main>
       <Footer />
@@ -14,4 +14,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+export default LayoutWithoutBg;

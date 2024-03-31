@@ -7,25 +7,25 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="mx-12 sticky top-3 flex justify-between bg-white bg-opacity-70 hover:bg-opacity-100 rounded-full shadow-lg">
-      <div className="px-5 py-1">
+    <header className="flex lg:mx-12 sticky top-0 lg:top-3 justify-between bg-white lg:bg-opacity-90 hover:bg-opacity-100 lg:rounded-full shadow-lg items-center">
+      <div className="px-2 lg:px-5 py-1">
         <img src={navLogo} alt="Logo" />
       </div>
-      <div className="px-5 py-1 content-center">
-        <Link to="/poppinsClub" className="text-md mr-5">
+      <div className="hidden lg:flex px-5 py-1 items-center">
+        <Link to="/poppinsClub" className="text-md mr-5 hover:text-button ">
           Poppins Club
         </Link>
-        <Link to="/programs" className="text-md mr-5">
+        <Link to="/programs" className="text-md mr-5 hover:text-button">
           Programs
         </Link>
-        <Link to="/aboutUs" className="text-md mr-5">
+        <Link to="/aboutUs" className="text-md mr-5 hover:text-button">
           About Us
         </Link>
 
         {/* Navbar button */}
-        <Link className="" to="/sayHello">
+        <Link to="/sayHello">
           <Button
-            styles="text-md text-white bg-button rounded-full px-5 py-1 shadow-lg font-semibold"
+            styles="text-md text-white bg-button rounded-full px-5 py-1 shadow-lg font-semibold hover:bg-primary hover:text-button"
             label="Say Hello!"
           />
         </Link>

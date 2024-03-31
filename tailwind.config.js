@@ -14,6 +14,8 @@ module.exports = {
       lg: "32px",
       md: "24px",
       sm: "20px",
+      xs: "16px",
+      xxs: "14px",
     },
     screens: {
       sm: "576px",

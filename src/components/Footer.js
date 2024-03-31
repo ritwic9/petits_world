@@ -8,7 +8,7 @@ import facebook from "../images/svg/facebook.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between bg-white rounded-full shadow-lg">
+    <footer className="hidden lg:flex lg:mx-12 mb-3 justify-between bg-white lg:bg-opacity-70 hover:bg-opacity-100 lg:rounded-full shadow-lg">
       <div className="px-5 py-1 flex items-center">
         <img src={navLogo} alt="Logo" />
         <p className="px-3 font-semibold text-sm">TIMINGS - 9:15AM TO 6:00PM</p>
