@@ -15,7 +15,6 @@ module.exports = {
       md: "24px",
       sm: "20px",
       xs: "16px",
-      xxs: "14px",
     },
     screens: {
       sm: "576px",
@@ -80,8 +79,8 @@ module.exports = {
         13: "200px",
       },
       borderRadius: {
-        sm: "20px",
-        lg: "50px",
+        small: "20px",
+        large: "50px",
       },
     },
   },

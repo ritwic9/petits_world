@@ -10,6 +10,7 @@ import PoppinsCard from "../components/PoppinsCard";
 import img1 from "../images/svg/age.svg";
 import img2 from "../images/svg/batch.svg";
 import img3 from "../images/svg/clock.svg";
+import starProgram from "../images/svg/programStar.svg";
 
 const programs = () => {
   const imgAlt1 = "Age group icon";
@@ -30,7 +31,7 @@ const programs = () => {
   return (
     <LayoutWithoutRepeat>
       {/* Hero Section */}
-      <section className="m-2 lg:mx-12 h-full pt-10">
+      <section className="m-2 lg:mx-12 h-full pt-8">
         <div className="w-full justify-center">
           <h1 className="lg:text-center text-lg lg:text-xl font-semibold">
             DISCOVER THE MAGIC OF PLAY BASED LEARNING
@@ -41,7 +42,7 @@ const programs = () => {
         </div>
       </section>
       {/* Our Programs */}
-      <section className="bg-white mx-1 rounded-tr-md rounded-bl-md">
+      <section className="bg-white mx-1 rounded-tr-3xl rounded-bl-3xl">
         <h2 className="text-center text-lg lg:text-xl font-semibold text-button">
           OUR PROGRAMS & CURRICULUM
         </h2>
@@ -56,15 +57,16 @@ const programs = () => {
           <p className="text-md lg:text-lg lg:text-center">
             Where the creativity is unleashed!
           </p>
+          <img className="hidden" src={starProgram} alt="Be part of the club" />
         </div>
-        <div className="mt-2 bg-white p-2 rounded-tr-md rounded-bl-md">
-          <p className="font-medium">
+        <div className="mt-2 bg-white p-2 rounded-tr-3xl rounded-bl-3xl">
+          <p className="font-medium text-sm">
             At our Poppins club, we blend learning with entertainment to create
             an overall enriching experience for your kids. Our after school
             activities are going to be fun and trust us….its the best way to
             reduce your child’s screen time!
           </p>
-          <ul className="list-disc m-2 font-medium text-button">
+          <ul className="list-disc m-2 font-medium text-sm text-button">
             <li>
               Exploring art & Inspiring creativity: Dive into the world of
               colors and nurture child’s creativity through our art & craft

@@ -9,7 +9,7 @@ const ProgramCard = () => {
     <div className="flex flex-col lg:flex-row mx-2 my-2">
       {/* Play Group */}
       <div className="flex flex-col">
-        <div className="flex flex-col bg-primary rounded-md py-1">
+        <div className="flex flex-col bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
           <img className="p-2 rounded-sm" src={image1} alt="Play group image" />
           <p className="self-center font-semibold text-md">PLAY GROUP</p>
         </div>
@@ -28,7 +28,7 @@ const ProgramCard = () => {
       </div>
       {/* Nursery */}
       <div className="flex flex-col">
-        <div className="flex flex-col bg-primary rounded-md py-1">
+        <div className="flex flex-col bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
           <img className="p-2 rounded-sm" src={image1} alt="Play group image" />
           <p className="self-center font-semibold text-md">NURSERY</p>
         </div>
@@ -49,7 +49,7 @@ const ProgramCard = () => {
       </div>
       {/* Early Learning Years */}
       <div className="flex flex-col">
-        <div className="flex flex-col bg-primary rounded-md py-1">
+        <div className="flex flex-col bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
           <img className="p-2 rounded-sm" src={image1} alt="Play group image" />
           <p className="self-center font-semibold text-md">
             EARLY LEARNING YEARS

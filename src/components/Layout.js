@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className="bg-repeat-y bg-[url('../images/svg/bg.svg')] bg-auto lg:bg-contain">
       <Header />
-      <main>{children}</main>
+      <main className="">{children}</main>
       <Footer />
     </div>
   );
