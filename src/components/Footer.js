@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-//components
+//assets
 import navLogo from "../images/svg/nav.svg";
 import insta from "../images/svg/instagram.svg";
 import facebook from "../images/svg/facebook.svg";
@@ -17,18 +17,16 @@ const Footer = () => {
       <div className="flex mr-5">
         <div className="flex items-center mr-3">
           <a
-            href="https://instagram.com/suyashafacilityventures?igshid=MWZjMTM2ODFkZg=="
+            href="https://www.instagram.com/petitsworld?igsh=MXhyN3p3eWVsY2xidw=="
             target="_blank"
             rel="noreferrer"
-            className=" "
           >
             <img src={insta} alt="instagram" className="w-9 h-9" />
           </a>
           <a
-            href="https://www.facebook.com/people/Suyasha-Facility-Ventures/61550851400187/?mibextid=ZbWKwL"
+            href="https://www.facebook.com/share/FMsEUQnrdGWo6bFM/?mibextid=LQQJ4d"
             target="_blank"
             rel="noreferrer"
-            className=""
           >
             <img src={facebook} alt="facebook" className="w-9 h-9" />
           </a>
@@ -36,7 +34,7 @@ const Footer = () => {
 
         <Link
           to="/privacy-policy"
-          className="content-center text-md font-semibold"
+          className="content-center text-md font-semibold underline"
         >
           PRIVACY POLICY
         </Link>
