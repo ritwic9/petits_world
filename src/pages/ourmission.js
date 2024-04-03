@@ -20,8 +20,8 @@ const OurMission = () => {
   return (
     <LayoutWithoutBg>
       {/* Hero section */}
-      <section className="p-2 lg:mx-12 pt-8">
-        <div className="flex flex-col w-full justify-center">
+      <section className="p-2 lg:mx-12">
+        <div className="flex flex-col w-full justify-center lg:mb-5">
           <h1 className="lg:text-center text-lg lg:text-xl font-semibold">
             EXPERIENCE INDIVIDUALISED & GUIDED APPROACH!
           </h1>
@@ -32,9 +32,9 @@ const OurMission = () => {
         <ImageCarousel />
       </section>
       {/* Our Mission */}
-      <section className="px-2 my-2 bg-white shadow-inner h-full">
-        <div className="lg:py-6 lg:mx-12">
-          <h2 className="text-center text-lg lg:text-xl font-semibold text-button">
+      <section className="px-2 my-2 bg-white shadow-inner h-full lg:rounded-[800px] lg:-mx-12">
+        <div className="lg:pt-4 lg:mx-14">
+          <h2 className="text-center text-lg lg:text-xl font-semibold text-button lg:p-5">
             OUR MISSION
           </h2>
           <p className="mt-2 text-md lg:text-lg font-medium">
@@ -43,8 +43,8 @@ const OurMission = () => {
             compassionate educators are committed in fostering skills such as
           </p>
         </div>
-        <div>
-          <div className="py-2">
+        <div className="lg:mx-14 py-4 lg:pb-10">
+          <div className="py-2 ">
             <OurMissionCard img={img1} alt="Cognitive" content={content1} />
             <OurMissionCard img={img2} alt="Language" content={content2} />
             <OurMissionCard img={img3} alt="Emotions" content={content3} />
@@ -65,9 +65,9 @@ const OurMission = () => {
         </h3>
       </section>
       {/* About Us */}
-      <section>
+      <section className="lg:mx-12">
         <p className="m-2 text-sm py-2 lg:text-lg font-medium">
-          We are localities of Mangaluru who are certified teachers & wish to
+          We are localites of Mangaluru who are certified teachers & wish to
           make a difference in lives of kids here in our own small way. Kids are
           the best gift that God can bestow in anyone’s life. Caring & nurturing
           in early stages of their life is divine! Nothing gives us more

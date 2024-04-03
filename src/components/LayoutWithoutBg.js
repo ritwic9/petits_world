@@ -8,7 +8,9 @@ const LayoutWithoutBg = ({ children }) => {
   return (
     <div className="">
       <Header />
-      <main>{children}</main>
+      <main className="overflow-x-hidden mt-5 mb-5 lg:mt-11 lg:mb-10">
+        {children}
+      </main>
       <Footer />
     </div>
   );

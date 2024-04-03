@@ -17,7 +17,7 @@ const InputField = ({
       type={type}
       value={value}
       name={name}
-      className="my-2 rounded-md p-2 w-full shadow-lg"
+      className="my-2 lg:m-2 rounded-md p-2 w-full shadow-lg"
       onChange={onChange}
     />
   </>

@@ -31,42 +31,50 @@ const programs = () => {
   return (
     <LayoutWithoutRepeat>
       {/* Hero Section */}
-      <section className="m-2 lg:mx-12 h-full pt-8">
+      <section className="m-2 lg:mx-12 h-full">
         <div className="w-full justify-center">
           <h1 className="lg:text-center text-lg lg:text-xl font-semibold">
             DISCOVER THE MAGIC OF PLAY BASED LEARNING
           </h1>
         </div>
-        <div className="mt-5 h-1/2">
+        <div className="mt-5 h-1/2 lg:flex lg:justify-center lg:mt-0">
           <img src={programBg} alt="Play based learning" />
         </div>
       </section>
+
       {/* Our Programs */}
-      <section className="bg-white mx-1 rounded-tr-3xl rounded-bl-3xl">
+      <section className="bg-white mx-1 lg:mx-12 lg:p-5 rounded-tr-3xl rounded-bl-3xl">
         <h2 className="text-center text-lg lg:text-xl font-semibold text-button">
           OUR PROGRAMS & CURRICULUM
         </h2>
         <ProgramCard />
       </section>
+
       {/* Poppins Club */}
-      <section className="m-2">
-        <div>
-          <h3 className="lg:text-center text-lg lg:text-xl font-semibold">
-            REAL WORLD, REAL ENJOYMENT!
-          </h3>
-          <p className="text-md lg:text-lg lg:text-center">
-            Where the creativity is unleashed!
-          </p>
-          <img className="hidden" src={starProgram} alt="Be part of the club" />
+      <section className="m-2 lg:mx-12 lg:my-5">
+        <div className="lg:flex lg:justify-between">
+          <div className="lg:content-center">
+            <h3 className="lg:text-center text-lg lg:text-xl font-semibold">
+              REAL WORLD, REAL ENJOYMENT!
+            </h3>
+            <p className="text-md lg:text-lg ">
+              Where the creativity is unleashed!
+            </p>
+          </div>
+          <img
+            className="hidden lg:block"
+            src={starProgram}
+            alt="Be part of the club"
+          />
         </div>
-        <div className="mt-2 bg-white p-2 rounded-tr-3xl rounded-bl-3xl">
-          <p className="font-medium text-sm">
+        <div className="mt-2 bg-white p-2 rounded-tr-3xl rounded-bl-3xl lg:p-5">
+          <p className="font-medium text-sm lg:text-md">
             At our Poppins club, we blend learning with entertainment to create
             an overall enriching experience for your kids. Our after school
             activities are going to be fun and trust us….its the best way to
             reduce your child’s screen time!
           </p>
-          <ul className="list-disc m-2 font-medium text-sm text-button">
+          <ul className="list-disc m-2 font-medium text-sm lg:text-md text-button">
             <li>
               Exploring art & Inspiring creativity: Dive into the world of
               colors and nurture child’s creativity through our art & craft
@@ -87,7 +95,7 @@ const programs = () => {
               physical, cognitive, emotional and social skill development.
             </li>
           </ul>
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:my-5">
             <PoppinsCard
               img={img1}
               imgAlt={imgAlt1}

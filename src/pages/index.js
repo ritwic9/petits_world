@@ -27,45 +27,53 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="mx-2 lg:mx-12 pt-8">
+      <section className="mx-2 lg:mx-12">
         <div className="flex flex-col w-full justify-center">
-          <div className="flex flex-col py-2">
+          <div className="flex flex-col py-2 lg:py-0">
             <h1 className="lg:text-center text-lg lg:text-xl font-semibold">
               BOOST YOUR CHILD’S FUTURE
             </h1>
             <p className="text-md lg:text-lg lg:text-center">
               Make the journey of learning truly a joyous and an impactful
-              experience.
+              experience!
             </p>
           </div>
           <div className="py-2 grid grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2">
             <img className="rounded-md h-full w-full" src={img1} alt="" />
-            <img className="hidden lg:block h-full w-full" src={img2} alt="" />
-            <img className="hidden lg:block h-full w-full" src={img3} alt="" />
+            <img
+              className="rounded-md hidden lg:block h-full w-full"
+              src={img2}
+              alt=""
+            />
+            <img
+              className="rounded-md hidden lg:block h-full w-full"
+              src={img3}
+              alt=""
+            />
           </div>
         </div>
-        <Link to="/sayhello" className="flex lg:justify-center">
+        <Link to="/sayhello" className="flex justify-center">
           <Button
-            styles="my-2 text-white bg-button rounded-full px-10 py-2 shadow-lg font-semibold text-md hover:bg-primary hover:text-button focus:ring focus:ring-button"
+            styles="my-2 text-white bg-button rounded-full px-10 py-2 shadow-lg font-semibold text-md border-2 border-button hover:bg-primary hover:text-button hover:border-2 focus:ring focus:ring-button"
             label="Join Now!"
           />
         </Link>
       </section>
 
       {/* Why Choose Us? */}
-      <section className="px-2 my-2 bg-white shadow-inner py-5 h-full">
-        <div className=" lg:py-6 lg:mx-12 ">
+      <section className="px-2 my-6 bg-white shadow-inner pt-2 pb-11 h-full lg:rounded-full lg:-mx-10">
+        <div className=" lg:my-4 lg:mx-13 ">
           <h2 className="text-center text-lg lg:text-xl font-semibold text-button">
             WHY CHOOSE US?
           </h2>
-          <p className="mt-2 text-md lg:text-lg font-medium">
+          <p className="mt-2 text-md lg:text-lg font-medium pb-5 lg:pb-10">
             We are three enthusiasts who are passionate about teaching and
             caring for children. All three of us hold college/professional
             degree qualification on different fields, but we have discovered
             over the period of time, that our heart and minds are with the kids!
           </p>
         </div>
-        <div className="mx-2 lg:mx-12 my-5 lg:my-0 flex flex-col lg:flex-row lg:justify-around items-center">
+        <div className="mx-2 lg:mx-13 my-5 lg:my-0 flex flex-col lg:flex-row lg:justify-around items-center">
           <ChooseUsCard img={wc1} title={title1} />
           <ChooseUsCard img={wc2} title={title2} />
           <ChooseUsCard img={wc3} title={title3} />
@@ -75,7 +83,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="my-2">
+      <section className="my-2 lg:mx-12">
         <h3 className="py-2 text-center text-lg lg:text-xl font-semibold">
           TESTIMONIALS
         </h3>
