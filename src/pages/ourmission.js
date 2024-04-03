@@ -67,22 +67,26 @@ const OurMission = () => {
       {/* About Us */}
       <section className="lg:mx-12">
         <p className="m-2 text-sm py-2 lg:text-lg font-medium">
-          We are localites of Mangaluru who are certified teachers & wish to
-          make a difference in lives of kids here in our own small way. Kids are
-          the best gift that God can bestow in anyone’s life. Caring & nurturing
+          We are three enthusiasts who are passionate about teaching and caring
+          for children. All three of us hold college/professional degree
+          qualification on different fields, but we have discovered over the
+          period of time, that our heart and minds are with the kids! We are
+          localities of Mangaluru who are certified teachers &amp; wish to make
+          a difference in lives of kids here in our own small way. Kids are the
+          best gift that God can bestow in anyone’s life. Caring &amp; nurturing
           in early stages of their life is divine! Nothing gives us more
           satisfaction, than watching a bunch of young kids walk into our school
-          every morning & start the day with their own innocent ways. Early
+          every morning &amp; start the day with their own innocent ways. Early
           years of schooling is most important part, when kids start their
           academic journey in this world. They deserve all the love, care safety
-          & learning of earthly ways. And this is what we three take pride doing
-          day in & day out! We started Petits World in 2012 and operated at a
-          rented place in the Lalbagh area, our passion & experience made us
-          believe in our dream even more! Thanks to the patronage, love &
-          support provided by our parent community all these years & here we are
-          in our own premise! Do discover your child’s new nurturing & safe
-          place and share your thoughts & let us together make a difference in
-          your kid’s life. <br />
+          &amp; learning of earthly ways. And this is what we three take pride
+          doing day in &amp; day out! Started Petits World in 2012 in the
+          Lalbagh area, our passion &amp; experience made us believe in our
+          dream even more! Thanks to the patronage, love &amp; support provided
+          by our parent community all these years &amp; here we are in our new
+          premise! Do discover your child’s new nurturing &amp; safe place and
+          share your thoughts &amp; let us together make a difference in your
+          kid’s life. <br />
           <br />
           Aparna, Smitha & Vinitha <br />
           <br />

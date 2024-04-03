@@ -66,7 +66,7 @@ const MobileSidebar = ({ isOpen, onClose }) => {
         </div>
         {/* Social */}
         <div className="flex flex-col">
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <a
               href="https://www.instagram.com/petitsworld?igsh=MXhyN3p3eWVsY2xidw=="
               target="_blank"
@@ -83,10 +83,7 @@ const MobileSidebar = ({ isOpen, onClose }) => {
             </a>
           </div>
 
-          <Link
-            to="/privacy-policy"
-            className="content-center text-sm font-semibold underline"
-          >
+          <Link to="/privacypolicy" className="text-sm font-semibold underline">
             PRIVACY POLICY
           </Link>
         </div>

@@ -23,7 +23,7 @@ const SayHello = () => {
 
   //Content
   const content1 = "Malemar Road <br> Derebail, Konchady <br> Mangaluru-575006";
-  const content2 = "+91-6366052831";
+  const content2 = "0824-7968118 <br> +91-6366052831";
   const content3 = "petitisworld@gmail.com <br> sayhello@petitsworld.com";
 
   //List of groups

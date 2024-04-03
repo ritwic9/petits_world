@@ -56,7 +56,12 @@ const ProgramCard = () => {
               Encouraging independence, self expression & creative skill
               development
             </li>
+            <li>Enhance vocabulary and language skills</li>
           </ul>
+          <p className="font-semibold lg:text-md">
+            To aid these programs, we embrace best practices of Montessori,
+            Waldorf &amp; Glen Domans methods of teaching.
+          </p>
         </div>
       </div>
       {/* Early Learning Years */}

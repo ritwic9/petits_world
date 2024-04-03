@@ -12,6 +12,19 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <Footer />
+      <div className="bg-white">
+        <p className="text-center text-bd2 font-medium">
+          Crafted with {"\u2665"} by{" "}
+          <a
+            className="underline"
+            href="https://bugboxmedia.in/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bugbox Media
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

@@ -36,10 +36,7 @@ export const TestimonialCard = () => {
     <div className="slider-container m-2">
       <Slider {...settings}>
         {/* Testimonial 1 */}
-        <div
-          id="slider"
-          className="py-2 px-1 bg-primary rounded-tr-3xl rounded-bl-3xl h-14 lg:w-15"
-        >
+        <div className="py-2 px-1 bg-primary rounded-tr-3xl rounded-bl-3xl h-14 lg:w-15">
           <div className="flex">
             <img src={ast} alt="colon" />
             <span className="pl-2 self-end font-medium text-sm">

@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Petits World`,
     siteUrl: `https://www.petitsworld.com`,
-    description: `Petits World`,
+    description: `Petits World - A place away from home, designed keeping in mind your child's safety and comfort!`,
     author: `@Bugbox Media`,
   },
   plugins: [

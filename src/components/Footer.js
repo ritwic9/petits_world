@@ -21,7 +21,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={insta} alt="instagram" className="w-9 h-9" />
+            <img src={insta} alt="instagram" className="w-9 h-9 " />
           </a>
           <a
             href="https://www.facebook.com/share/FMsEUQnrdGWo6bFM/?mibextid=LQQJ4d"
@@ -34,7 +34,7 @@ const Footer = () => {
 
         <Link
           to="/privacy-policy"
-          className="content-center text-md font-semibold underline"
+          className="content-center text-sm font-semibold underline"
         >
           PRIVACY POLICY
         </Link>
