@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "gatsby";
 
 //assets
-import navLogo from "../images/svg/nav.svg";
+import navLogo from "../images/svg/logo.svg";
 import insta from "../images/svg/instagram.svg";
 import facebook from "../images/svg/facebook.svg";
 
 const Footer = () => {
   return (
     <footer className="hidden lg:flex lg:mx-12 mb-3 justify-between bg-white lg:bg-opacity-70 hover:bg-opacity-100 lg:rounded-full shadow-lg">
-      <div className="px-5 py-1 flex items-center">
-        <img src={navLogo} alt="Logo" />
-        <p className="px-3 font-semibold text-sm">TIMINGS - 9:15AM TO 6:00PM</p>
+      <div className="py-1 flex items-center">
+        <img className="px-5 h-7" src={navLogo} alt="Logo" />
+        <p className="font-semibold text-sm">TIMINGS - 9:15AM TO 6:00PM</p>
       </div>
       {/* Social media buttons */}
       <div className="flex mr-5">

@@ -2,7 +2,7 @@ import React from "react";
 
 //components
 import LayoutWithoutRepeat from "../components/LayoutWithoutRepeat";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 //assets
 import programBg from "../images/svg/programs.svg";
@@ -16,7 +16,7 @@ import starProgram from "../images/svg/programStar.svg";
 const programs = () => {
   const imgAlt1 = "Age group icon";
   const title1 = "AGE GROUP";
-  const content1 = "3 YEARS - 4 YEARS";
+  const content1 = "5 YEARS - 10 YEARS";
 
   const imgAlt2 = "Batch icon";
   const title2 = "BATCH 1";
@@ -32,7 +32,7 @@ const programs = () => {
   return (
     <LayoutWithoutRepeat>
       {/* Seo added below */}
-      <SEO
+      <Seo
         title="Our Programs"
         description="Choose from a variety of programs, discover the magic of play based learning coupled with social skill development and field trips!"
         article="false"
@@ -68,11 +68,7 @@ const programs = () => {
               Where the creativity is unleashed!
             </p>
           </div>
-          <img
-            className="hidden lg:block"
-            src={starProgram}
-            alt="Be part of the club"
-          />
+          <img className="" src={starProgram} alt="Be part of the club" />
         </div>
         <div className="mt-2 bg-white p-2 rounded-tr-3xl rounded-bl-3xl lg:p-5">
           <p className="font-medium text-sm lg:text-md">

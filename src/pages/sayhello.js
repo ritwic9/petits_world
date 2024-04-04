@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //components
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
@@ -23,9 +23,10 @@ const SayHello = () => {
   const [message, setMessage] = useState("");
 
   //Content
-  const content1 = "Malemar Road <br> Derebail, Konchady <br> Mangaluru-575006";
+  const content1 =
+    "'Shree Para'<br> Malemar Road <br> Derebail, Konchady <br> Mangaluru-575006";
   const content2 = "0824-7968118 <br> +91-6366052831";
-  const content3 = "petitisworld@gmail.com <br> sayhello@petitsworld.com";
+  const content3 = "petitsworld@gmail.com <br> sayhello@petitsworld.com";
 
   //List of groups
   const groups = [
@@ -78,7 +79,7 @@ const SayHello = () => {
   return (
     <Layout>
       {/* Seo added below */}
-      <SEO
+      <Seo
         title="Say Hello"
         description="We are a place away from home, designed keeping in mind your child's safety and comfort!"
         article="false"
@@ -117,10 +118,7 @@ const SayHello = () => {
         <h2 className="text-center text-lg lg:text-xl font-semibold text-button">
           CONTACT US
         </h2>
-        <form
-          className="w-full flex flex-col items-center"
-          onSubmit={handleSubmit}
-        >
+        <form className="w-full flex flex-col" onSubmit={handleSubmit}>
           <div className="lg:flex lg:flex-row lg:w-full">
             <InputField
               placeholder="Name*"

@@ -10,6 +10,8 @@ import main3 from "../images/main3.jpg";
 import main4 from "../images/main4.jpg";
 
 const ImageCarousel = () => {
+  const alt = "Children playing";
+
   const settings = {
     dots: true,
     infinite: true,
@@ -41,16 +43,16 @@ const ImageCarousel = () => {
     <div className="slider-container m-2 lg:mx-auto">
       <Slider {...settings}>
         <div className="">
-          <img className="lg:h-15 h-14 h:w-full p-1" src={main1} />
+          <img className="lg:h-15 h-14 h:w-full p-1" src={main1} alt={alt} />
         </div>
         <div className="">
-          <img className="lg:h-15 h-14 w-full p-1" src={main2} />
+          <img className="lg:h-15 h-14 w-full p-1" src={main2} alt={alt} />
         </div>
         <div className="">
-          <img className="lg:h-15 h-14 w-full p-1" src={main3} />
+          <img className="lg:h-15 h-14 w-full p-1" src={main3} alt={alt} />
         </div>
         <div className="">
-          <img className="lg:h-15 h-14 w-full p-1" src={main4} />
+          <img className="lg:h-15 h-14 w-full p-1" src={main4} alt={alt} />
         </div>
       </Slider>
     </div>

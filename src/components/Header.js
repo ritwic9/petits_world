@@ -6,7 +6,7 @@ import Button from "./Button";
 import MobileSidebar from "./MobileSidebar";
 
 //assets
-import navLogo from "../images/svg/nav.svg";
+import navLogo from "../images/svg/logo.svg";
 import hamburger from "../images/svg/hamburger.svg";
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
         <>
           <div className="px-2 lg:px-5 py-1">
             <Link to="/">
-              <img src={navLogo} alt="Logo" />
+              <img className="h-5 lg:h-7 w-full" src={navLogo} alt="Logo" />
             </Link>
           </div>
           <div className="hidden lg:flex px-5 py-1 items-center">
