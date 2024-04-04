@@ -1,7 +1,7 @@
 import React from "react";
 
 //components
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 import LayoutWithoutBg from "../components/LayoutWithoutBg";
 import ImageCarousel from "../components/ImageCarousel";
 import OurMissionCard from "../components/OurMissionCard";
@@ -21,7 +21,7 @@ const OurMission = () => {
   return (
     <LayoutWithoutBg>
       {/* Seo added below */}
-      <SEO
+      <Seo
         title="Our Mission"
         description="At Petits World, we focus on each child’s need and pace individually!"
         article="false"
@@ -74,17 +74,13 @@ const OurMission = () => {
       {/* About Us */}
       <section className="lg:mx-12">
         <p className="m-2 text-sm py-2 lg:text-lg font-medium">
-          We are three enthusiasts who are passionate about teaching and caring
-          for children. All three of us hold college/professional degree
-          qualification on different fields, but we have discovered over the
-          period of time, that our heart and minds are with the kids! We are
-          localities of Mangaluru who are certified teachers &amp; wish to make
-          a difference in lives of kids here in our own small way. Kids are the
-          best gift that God can bestow in anyone’s life. Caring &amp; nurturing
-          in early stages of their life is divine! Nothing gives us more
-          satisfaction, than watching a bunch of young kids walk into our school
-          every morning &amp; start the day with their own innocent ways. Early
-          years of schooling is most important part, when kids start their
+          We are localites of Mangaluru who are certified teachers &amp; wish to
+          make a difference in lives of kids here in our own small way. Kids are
+          the best gift that God can bestow in anyone’s life. Caring &amp;
+          nurturing in early stages of their life is divine! Nothing gives us
+          more satisfaction, than watching a bunch of young kids walk into our
+          school every morning &amp; start the day with their own innocent ways.
+          Early years of schooling is most important part, when kids start their
           academic journey in this world. They deserve all the love, care safety
           &amp; learning of earthly ways. And this is what we three take pride
           doing day in &amp; day out! Started Petits World in 2012 in the

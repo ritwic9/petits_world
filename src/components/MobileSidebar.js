@@ -60,7 +60,7 @@ const MobileSidebar = ({ isOpen, onClose }) => {
       </div>
 
       {/* Footer part */}
-      <div className="flex flex-col mt-14 items-center gap-4">
+      <div className="flex flex-col mt-13 items-center gap-4">
         <div className="">
           <p className="font-semibold text-sm">TIMINGS - 9:15AM TO 6:00PM</p>
         </div>

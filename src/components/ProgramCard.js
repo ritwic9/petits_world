@@ -13,7 +13,7 @@ const ProgramCard = () => {
           <img
             className="p-2 lg:w-full lg:h-15"
             src={image1}
-            alt="Play group image"
+            alt="Play group"
           />
           <p className="self-center font-semibold text-md">PLAY GROUP</p>
         </div>
@@ -21,14 +21,14 @@ const ProgramCard = () => {
           <div className="flex">
             <img src={Age} alt="Age icon" />
             <p className="self-center px-2 font-semibold lg:text-md">
-              1.1 YEARS - 3 YEARS
+              1 YEAR 10 MONTHS - 3 YEARS
             </p>
           </div>
           <ul class="list-disc m-2 font-medium lg:text-md">
             <li>Introduction to basic concepts and language</li>
             <li>Creative expression through art and music</li>
             <li>Socialization & communication skills</li>
-            <li>Fine motor & gross motor skills development</li>
+            <li>Fine motor & gross motor skill development</li>
           </ul>
         </div>
       </div>
@@ -38,7 +38,7 @@ const ProgramCard = () => {
           <img
             className="p-2 lg:w-full lg:h-15"
             src={image1}
-            alt="Play group image"
+            alt="Play group"
           />
           <p className="self-center font-semibold text-md">NURSERY</p>
         </div>
@@ -58,7 +58,7 @@ const ProgramCard = () => {
             </li>
             <li>Enhance vocabulary and language skills</li>
           </ul>
-          <p className="font-semibold lg:text-md">
+          <p className="font-semibold lg:text-md text-button">
             To aid these programs, we embrace best practices of Montessori,
             Waldorf &amp; Glen Domans methods of teaching.
           </p>
@@ -70,10 +70,10 @@ const ProgramCard = () => {
           <img
             className="p-2 lg:w-full lg:h-15"
             src={image1}
-            alt="Play group image"
+            alt="Play group"
           />
-          <p className="self-center font-semibold text-md ">
-            EARLY LEARNING YEARS
+          <p className="self-center font-semibold text-md text-center">
+            EARLY YEARS FOUNDATION PROGRAM 1 & 2
           </p>
         </div>
         <div className="py-2 lg:w-1/2">

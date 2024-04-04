@@ -1,8 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 //components
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Button from "../components/Button";
 import ChooseUsCard from "../components/ChooseUsCard";
@@ -28,7 +29,7 @@ export default function Home() {
   return (
     <Layout>
       {/* Seo added below */}
-      <SEO
+      <Seo
         title="Petits World|Home"
         description="Welcome to Petits World, make the journey of learning truly a joyous and an impactful
               experience!"
@@ -47,7 +48,15 @@ export default function Home() {
             </p>
           </div>
           <div className="py-2 grid grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2">
-            <img className="rounded-md h-full w-full" src={img1} alt="" />
+            <StaticImage
+              className="rounded-md h-full w-full"
+              src="../images/main1.jpg"
+              alt=""
+              placeholder="blurred"
+              width="100%"
+              height="100%"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
+            />
             <img
               className="rounded-md hidden lg:block h-full w-full"
               src={img2}
