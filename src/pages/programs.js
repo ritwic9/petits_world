@@ -124,9 +124,6 @@ const programs = () => {
               content={content4}
             />
           </div>
-          <h4 className="text-center text-md lg:text-xl font-semibold text-button">
-            DAY CARE AND AFTER SCHOOL DAY CARE
-          </h4>
         </div>
       </section>
     </LayoutWithoutRepeat>

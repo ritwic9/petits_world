@@ -9,9 +9,9 @@ const ProgramCard = () => {
     <div className="flex flex-col mx-2 my-2">
       {/* Play Group */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
-        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
+        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary py-1 rounded-tr-3xl rounded-bl-3xl">
           <img
-            className="p-2 lg:w-full lg:h-15"
+            className="lg:w-full lg:h-15 p-3"
             src={image1}
             alt="Play group"
           />
@@ -32,11 +32,12 @@ const ProgramCard = () => {
           </ul>
         </div>
       </div>
+
       {/* Nursery */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
-        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
+        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary py-1 rounded-tr-3xl rounded-bl-3xl">
           <img
-            className="p-2 lg:w-full lg:h-15"
+            className="lg:w-full lg:h-15 p-3"
             src={image1}
             alt="Play group"
           />
@@ -58,12 +59,13 @@ const ProgramCard = () => {
             </li>
             <li>Enhance vocabulary and language skills</li>
           </ul>
-          <p className="font-semibold lg:text-md text-button">
+          <p className="font-semibold lg:text-sm text-button">
             To aid these programs, we embrace best practices of Montessori,
             Waldorf &amp; Glen Domans methods of teaching.
           </p>
         </div>
       </div>
+
       {/* Early Learning Years */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
         <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
@@ -95,6 +97,37 @@ const ProgramCard = () => {
             <li>
               Overall preparedness for higher grades & other extracurricular &
               outdoor activities
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Early Learning Years */}
+      <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
+        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
+          <img
+            className="p-2 lg:w-full lg:h-15"
+            src={image1}
+            alt="Play group"
+          />
+          <p className="self-center font-semibold text-md text-center">
+            DAYCARE AND AFTER SCHOOL DAYCARE
+          </p>
+        </div>
+        <div className="py-2 lg:w-1/2">
+          <div className="flex">
+            <img src={Age} alt="Age icon" />
+            <p className="self-center px-2 font-semibold lg:text-md">
+              4 YEARS - 6 YEARS
+            </p>
+          </div>
+          <ul class="list-disc m-2 font-medium lg:text-md">
+            <li>Safe, secure & monitored premise</li>
+            <li>Childproof measures in place t</li>
+            <li>Structured schedule for meal, nap & activities</li>
+            <li>
+              Professional, homely and fun environment for early years
+              development
             </li>
           </ul>
         </div>

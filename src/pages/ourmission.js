@@ -27,7 +27,7 @@ const OurMission = () => {
         article="false"
       />
       {/* Hero section */}
-      <section className="mx-2 lg:mx-12 mb-5 lg:mb-0">
+      <section className="mx-2 lg:mx-12 mb-5 ">
         <div className="flex flex-col w-full justify-center lg:mb-5">
           <h1 className="lg:text-center text-lg lg:text-xl font-semibold">
             EXPERIENCE INDIVIDUALISED & GUIDED APPROACH!
