@@ -20,12 +20,12 @@ const Header = () => {
         />
       ) : (
         <>
-          <div className="px-2 lg:px-5 py-1">
+          <div className="px-2 py-1">
             <Link to="/">
-              <img className="h-5 lg:h-7 w-full" src={navLogo} alt="Logo" />
+              <img className="h-5 lg:h-7 w-14" src={navLogo} alt="Logo" />
             </Link>
           </div>
-          <div className="hidden lg:flex px-5 py-1 items-center">
+          <div className="hidden lg:flex px-2 py-1 items-center">
             <Link
               to="/programs"
               activeClassName="active"

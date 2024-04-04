@@ -15,3 +15,7 @@
     color: #282269;
   }
 }
+
+.slick-next:before {
+  color: #282269 !important;
+}

@@ -30,7 +30,7 @@ export default function Home() {
     <Layout>
       {/* Seo added below */}
       <Seo
-        title="Petits World|Home"
+        title="Petits World | Home"
         description="Welcome to Petits World, make the journey of learning truly a joyous and an impactful
               experience!"
         article="false"
@@ -49,12 +49,10 @@ export default function Home() {
           </div>
           <div className="py-2 grid grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-2">
             <StaticImage
-              className="rounded-md h-full w-full"
+              className="rounded-md"
               src="../images/main1.jpg"
-              alt=""
+              alt="Children playing"
               placeholder="blurred"
-              width="100%"
-              height="100%"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
             <img
