@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 //components
+import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Button from "../components/Button";
 import ChooseUsCard from "../components/ChooseUsCard";
@@ -26,6 +27,13 @@ export default function Home() {
 
   return (
     <Layout>
+      {/* Seo added below */}
+      <SEO
+        title="Petits World|Home"
+        description="Welcome to Petits World, make the journey of learning truly a joyous and an impactful
+              experience!"
+        article="false"
+      />
       {/* Hero */}
       <section className="mx-2 lg:mx-12">
         <div className="flex flex-col w-full justify-center">
@@ -99,5 +107,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-export const Head = () => <title>Petits World</title>;

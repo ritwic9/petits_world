@@ -1,12 +1,14 @@
 import React from "react";
 
 //components
+import SEO from "./SEO";
 import Header from "./Header";
 import Footer from "./Footer";
 
 const LayoutWithoutBg = ({ children }) => {
   return (
     <div className="">
+      <SEO />
       <Header />
       <main className="overflow-x-hidden mt-5 mb-5 lg:mt-11 lg:mb-10">
         {children}

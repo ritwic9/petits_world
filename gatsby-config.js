@@ -3,10 +3,19 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Petits World`,
+    title: `Petits World|Mangaluru`,
+    titleTemplate: `%s`,
+    headline: `Petits World - A place away from home, designed keeping in mind your child's safety and comfort!`,
+    url: `https://www.petitsworld.com`,
     siteUrl: `https://www.petitsworld.com`,
     description: `Petits World - A place away from home, designed keeping in mind your child's safety and comfort!`,
     author: `@Bugbox Media`,
+    defaultLanguage: "en",
+    image: "/assets/icon.png",
+
+    // Facebook Attributes
+    facebook: "Petits World|Mangaluru",
+    ogLanguage: "it_IT",
   },
   plugins: [
     "gatsby-plugin-postcss",

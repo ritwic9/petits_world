@@ -2,6 +2,7 @@ import React from "react";
 
 //components
 import LayoutWithoutRepeat from "../components/LayoutWithoutRepeat";
+import SEO from "../components/SEO";
 
 //assets
 import programBg from "../images/svg/programs.svg";
@@ -30,6 +31,12 @@ const programs = () => {
 
   return (
     <LayoutWithoutRepeat>
+      {/* Seo added below */}
+      <SEO
+        title="Our Programs"
+        description="Choose from a variety of programs, discover the magic of play based learning coupled with social skill development and field trips!"
+        article="false"
+      />
       {/* Hero Section */}
       <section className="m-2 lg:mx-12 h-full">
         <div className="w-full justify-center">

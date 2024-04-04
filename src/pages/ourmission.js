@@ -1,6 +1,7 @@
 import React from "react";
 
 //components
+import SEO from "../components/SEO";
 import LayoutWithoutBg from "../components/LayoutWithoutBg";
 import ImageCarousel from "../components/ImageCarousel";
 import OurMissionCard from "../components/OurMissionCard";
@@ -19,6 +20,12 @@ const OurMission = () => {
 
   return (
     <LayoutWithoutBg>
+      {/* Seo added below */}
+      <SEO
+        title="Our Mission"
+        description="At Petits World, we focus on each child’s need and pace individually!"
+        article="false"
+      />
       {/* Hero section */}
       <section className="mx-2 lg:mx-12 mb-5 lg:mb-0">
         <div className="flex flex-col w-full justify-center lg:mb-5">

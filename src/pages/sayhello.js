@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 //components
+import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
@@ -76,6 +77,12 @@ const SayHello = () => {
 
   return (
     <Layout>
+      {/* Seo added below */}
+      <SEO
+        title="Say Hello"
+        description="We are a place away from home, designed keeping in mind your child's safety and comfort!"
+        article="false"
+      />
       {/* Hero */}
       <section className="m-2 lg:mx-12">
         <div className="flex flex-col w-full justify-center">
@@ -181,5 +188,3 @@ const SayHello = () => {
 };
 
 export default SayHello;
-
-export const Head = () => <title>Contact Us | Book your service now!</title>;
