@@ -17,5 +17,9 @@
 }
 
 .slick-next:before {
-  color: #282269 !important;
+  color: #f15956 !important;
+}
+
+.slick-prev:before {
+  color: #f15956 !important;
 }

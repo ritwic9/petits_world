@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-//components
+//assets
 import ast from "../images/svg/ast.svg";
+
 export const TestimonialCard = () => {
   var settings = {
     dots: true,
@@ -13,8 +14,8 @@ export const TestimonialCard = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    // autoplay: true,
-    // autoplaySpeed: 6000,
+    autoplay: true,
+    autoplaySpeed: 6000,
     responsive: [
       {
         breakpoint: 1024,

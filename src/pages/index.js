@@ -15,9 +15,6 @@ import wc2 from "../images/svg/wc2.svg";
 import wc3 from "../images/svg/wc3.svg";
 import wc4 from "../images/svg/wc4.svg";
 import wc5 from "../images/svg/wc5.svg";
-import img1 from "../images/main1.jpg";
-import img2 from "../images/main2.jpg";
-import img3 from "../images/main3.jpg";
 
 export default function Home() {
   const title1 = "SAFE, SECURE & <br> MONITORED PREMISE";
@@ -55,15 +52,19 @@ export default function Home() {
               placeholder="blurred"
               transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
-            <img
+            <StaticImage
               className="rounded-md hidden lg:block h-full w-full"
-              src={img2}
-              alt=""
+              src="../images/main2.jpg"
+              alt="Children playing"
+              placeholder="blurred"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
-            <img
+            <StaticImage
               className="rounded-md hidden lg:block h-full w-full"
-              src={img3}
-              alt=""
+              src="../images/main3.jpg"
+              alt="Children playing"
+              placeholder="blurred"
+              transformOptions={{ fit: "cover", cropFocus: "attention" }}
             />
           </div>
         </div>
