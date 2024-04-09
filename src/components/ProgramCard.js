@@ -1,19 +1,21 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 //assets
 import Age from "../images/svg/age.svg";
-import image1 from "../images/playgroup.jpg";
 
 const ProgramCard = () => {
   return (
     <div className="flex flex-col mx-2 my-2">
       {/* Play Group */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
-        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary py-1 rounded-tr-3xl rounded-bl-3xl">
-          <img
-            className="lg:w-full lg:h-15 p-3"
-            src={image1}
-            alt="Play group"
+        <div className="flex flex-col lg:w-2/5 lg:mr-5 bg-primary py-1 rounded-tr-3xl rounded-bl-3xl">
+          <StaticImage
+            className="lg:h-15 px-2 rounded-tr-3xl"
+            src="../images/playgroup.jpg"
+            alt="Playgroup"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
           />
           <p className="self-center font-semibold text-md">PLAY GROUP</p>
         </div>
@@ -35,11 +37,13 @@ const ProgramCard = () => {
 
       {/* Nursery */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
-        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary py-1 rounded-tr-3xl rounded-bl-3xl">
-          <img
-            className="lg:w-full lg:h-15 p-3"
-            src={image1}
-            alt="Play group"
+        <div className="flex flex-col lg:w-2/5 lg:mr-5 bg-primary py-1 rounded-tr-3xl rounded-bl-3xl">
+          <StaticImage
+            className="lg:h-15 px-2 rounded-tr-3xl"
+            src="../images/nursery.jpg"
+            alt="Playgroup"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
           />
           <p className="self-center font-semibold text-md">NURSERY</p>
         </div>
@@ -68,13 +72,15 @@ const ProgramCard = () => {
 
       {/* Early Learning Years */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
-        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
-          <img
-            className="p-2 lg:w-full lg:h-15"
-            src={image1}
-            alt="Play group"
+        <div className="flex flex-col lg:w-2/5 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
+          <StaticImage
+            className="lg:h-15 px-2 rounded-tr-3xl"
+            src="../images/elf.jpg"
+            alt="Playgroup"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
           />
-          <p className="self-center font-semibold text-md text-center">
+          <p className="self-center font-semibold text-md text-center px-3">
             EARLY YEARS FOUNDATION PROGRAM 1 & 2
           </p>
         </div>
@@ -102,13 +108,15 @@ const ProgramCard = () => {
         </div>
       </div>
 
-      {/* Early Learning Years */}
+      {/* Daycare and after school daycare */}
       <div className="flex flex-col lg:flex-row lg:justify-around lg:py-5">
-        <div className="flex flex-col lg:w-1/2 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
-          <img
-            className="p-2 lg:w-full lg:h-15"
-            src={image1}
-            alt="Play group"
+        <div className="flex flex-col lg:w-2/5 lg:mr-5 bg-primary rounded-md py-1 rounded-tr-3xl rounded-bl-3xl">
+          <StaticImage
+            className="lg:h-15 px-2 rounded-tr-3xl"
+            src="../images/daycare.jpg"
+            alt="Playgroup"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
           />
           <p className="self-center font-semibold text-md text-center">
             DAYCARE AND AFTER SCHOOL DAYCARE
@@ -118,7 +126,7 @@ const ProgramCard = () => {
           <div className="flex">
             <img src={Age} alt="Age icon" />
             <p className="self-center px-2 font-semibold lg:text-md">
-              4 YEARS - 6 YEARS
+              1 YEAR 10 MONTHS - 10 YEARS
             </p>
           </div>
           <ul class="list-disc m-2 font-medium lg:text-md">

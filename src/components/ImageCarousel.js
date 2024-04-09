@@ -4,14 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { StaticImage } from "gatsby-plugin-image";
 
-import main1 from "../images/main1.jpg";
-import main2 from "../images/main2.jpg";
-import main3 from "../images/main3.jpg";
-import main4 from "../images/main4.jpg";
-
 const ImageCarousel = () => {
-  const alt = "Children playing";
-
   const settings = {
     dots: true,
     infinite: true,
@@ -20,7 +13,7 @@ const ImageCarousel = () => {
     slidesToScroll: 3,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 8000,
     responsive: [
       {
         breakpoint: 1024,
@@ -43,16 +36,67 @@ const ImageCarousel = () => {
     <div className="slider-container m-2 lg:mx-auto">
       <Slider {...settings}>
         <div className="">
-          <img className="lg:h-15 h-14 h:w-full p-1" src={main1} alt={alt} />
+          <StaticImage
+            className="lg:h-15 h-14 h:w-full p-1"
+            src="../images/m1.jpg"
+            alt="Children playing in school"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
         </div>
         <div className="">
-          <img className="lg:h-15 h-14 w-full p-1" src={main2} alt={alt} />
+          <StaticImage
+            className="lg:h-15 h-14 w-full p-1"
+            src="../images/m2.jpg"
+            alt="Field trip"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
         </div>
         <div className="">
-          <img className="lg:h-15 h-14 w-full p-1" src={main3} alt={alt} />
+          <StaticImage
+            className="lg:h-15 h-14 w-full p-1"
+            src="../images/m3.jpg"
+            alt="Children playing in the park"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
         </div>
         <div className="">
-          <img className="lg:h-15 h-14 w-full p-1" src={main4} alt={alt} />
+          <StaticImage
+            className="lg:h-15 h-14 w-full p-1"
+            src="../images/m4.jpg"
+            alt="Adventure excursions"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
+        </div>
+        <div className="">
+          <StaticImage
+            className="lg:h-15 h-14 w-full p-1"
+            src="../images/m5.jpg"
+            alt="Children in class"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
+        </div>
+        <div className="">
+          <StaticImage
+            className="lg:h-15 h-14 w-full p-1"
+            src="../images/m6.jpg"
+            alt="Children playing with toys and puzzles"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
+        </div>
+        <div className="">
+          <StaticImage
+            className="lg:h-15 h-14 w-full p-1"
+            src="../images/m7.jpg"
+            alt="Children dancing"
+            placeholder="blurred"
+            transformOptions={{ fit: "cover", cropFocus: "attention" }}
+          />
         </div>
       </Slider>
     </div>
