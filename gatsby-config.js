@@ -80,5 +80,13 @@ module.exports = {
         lang: "en",
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.petitsworld.com",
+        sitemap: "https://www.petitsworld.com/sitemap-0.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 };

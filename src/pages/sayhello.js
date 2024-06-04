@@ -82,7 +82,6 @@ const SayHello = () => {
       <Seo
         title="Say Hello"
         description="We are a place away from home, designed keeping in mind your child's safety and comfort!"
-        article="false"
       />
       {/* Hero */}
       <section className="m-2 lg:mx-12">
@@ -129,7 +128,7 @@ const SayHello = () => {
             />
             <InputField
               name="email"
-              placeholder="Email"
+              placeholder="Email*"
               type="email"
               value={email}
               onChange={handleEmailChange}
@@ -185,9 +184,9 @@ const SayHello = () => {
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.0251986664534!2d74.84360117507534!3d12.906101187403243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU0JzIyLjAiTiA3NMKwNTAnNDYuMiJF!5e0!3m2!1sen!2sfr!4v1712258739212!5m2!1sen!2sfr"
             width="100%"
             height="450"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </section>
