@@ -30,7 +30,6 @@ export default function Home() {
         title="Petits World | Home"
         description="Welcome to Petits World, make the journey of learning truly a joyous and an impactful
               experience!"
-        article="false"
       />
       {/* Hero */}
       <section className="mx-2 lg:mx-12">

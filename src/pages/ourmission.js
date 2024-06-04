@@ -24,7 +24,6 @@ const OurMission = () => {
       <Seo
         title="Our Mission"
         description="At Petits World, we focus on each child’s need and pace individually!"
-        article="false"
       />
       {/* Hero section */}
       <section className="mx-2 lg:mx-12 mb-5 ">

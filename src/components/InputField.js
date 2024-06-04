@@ -14,6 +14,7 @@ const InputField = ({
     {label && <label htmlFor="input-field">{label}</label>}
     <input
       placeholder={placeholder}
+      required
       type={type}
       value={value}
       name={name}
