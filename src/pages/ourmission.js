@@ -10,6 +10,7 @@ import img2 from "../images/svg/message.svg";
 import img3 from "../images/svg/emotions.svg";
 import img4 from "../images/svg/motivation.svg";
 import img5 from "../images/svg/light-bulb.svg";
+import SEO from "../components/SeoUpdated";
 
 const OurMission = () => {
   const content1 = "Physical and cognitive development";
@@ -21,9 +22,18 @@ const OurMission = () => {
   return (
     <LayoutWithoutBg>
       {/* Seo added below */}
-      <Seo
+      <SEO
         title="Our Mission"
         description="At Petits World, we focus on each child’s need and pace individually!"
+        pathname="/ourmission"
+        keywords={[
+          "petits",
+          "playschool",
+          "daycare",
+          "nursery",
+          "kids",
+          "children",
+        ]}
       />
       {/* Hero section */}
       <section className="mx-2 lg:mx-12 mb-5 ">

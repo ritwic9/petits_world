@@ -14,6 +14,7 @@ import img3 from "../images/main3.jpg";
 import contact1 from "../images/svg/location.svg";
 import contact2 from "../images/svg/call.svg";
 import contact3 from "../images/svg/email.svg";
+import SEO from "../components/SeoUpdated";
 
 const SayHello = () => {
   const [username, setUsername] = useState("");
@@ -79,9 +80,18 @@ const SayHello = () => {
   return (
     <Layout>
       {/* Seo added below */}
-      <Seo
+      <SEO
         title="Say Hello"
         description="We are a place away from home, designed keeping in mind your child's safety and comfort!"
+        pathname="/sayhello"
+        keywords={[
+          "petits",
+          "playschool",
+          "daycare",
+          "nursery",
+          "kids",
+          "contact",
+        ]}
       />
       {/* Hero */}
       <section className="m-2 lg:mx-12">

@@ -8,6 +8,7 @@ import Layout from "../components/Layout";
 import Button from "../components/Button";
 import ChooseUsCard from "../components/ChooseUsCard";
 import { TestimonialCard } from "../components/TestimonialCard";
+import SEO from "../components/SeoUpdated";
 
 //assets
 import wc1 from "../images/svg/wc1.svg";
@@ -26,10 +27,19 @@ export default function Home() {
   return (
     <Layout>
       {/* Seo added below */}
-      <Seo
-        title="Petits World | Home"
+      <SEO
+        title="Home"
         description="Welcome to Petits World, make the journey of learning truly a joyous and an impactful
               experience!"
+        pathname="/"
+        keywords={[
+          "petits",
+          "playschool",
+          "daycare",
+          "nursery",
+          "kids",
+          "learning",
+        ]}
       />
       {/* Hero */}
       <section className="mx-2 lg:mx-12">
@@ -89,11 +99,11 @@ export default function Home() {
           </p>
         </div>
         <div className="mx-2 lg:mx-13 my-5 lg:my-0 flex flex-col lg:flex-row lg:justify-around items-center">
-          <ChooseUsCard img={wc1} title={title1} />
-          <ChooseUsCard img={wc2} title={title2} />
-          <ChooseUsCard img={wc3} title={title3} />
-          <ChooseUsCard img={wc4} title={title4} />
-          <ChooseUsCard img={wc5} title={title5} />
+          <ChooseUsCard img={wc1} title={title1} alt="safe icon" />
+          <ChooseUsCard img={wc2} title={title2} alt="proofing icon" />
+          <ChooseUsCard img={wc3} title={title3} alt="trained staff icon" />
+          <ChooseUsCard img={wc4} title={title4} alt="toys icon" />
+          <ChooseUsCard img={wc5} title={title5} alt="calendar icon" />
         </div>
       </section>
 

@@ -4,7 +4,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Petits World|Mangaluru`,
+    title: `Petits World`,
     titleTemplate: `%s`,
     headline: `Petits World - A place away from home, designed keeping in mind your child's safety and comfort!`,
     url: `https://www.petitsworld.com`,
@@ -13,10 +13,13 @@ module.exports = {
     author: `@Bugbox Media`,
     defaultLanguage: "en",
     image: "/assets/icon.png",
+    keywords: ["playschool", "mangalore", "kids", "nursery", "daycare"], // Default keywords
 
     // Facebook Attributes
     facebook: "Petits World | Mangaluru",
     ogLanguage: "it_IT",
+    //Twitter
+    twitterUsername: "@PetitsWorld",
   },
   plugins: [
     "gatsby-plugin-postcss",

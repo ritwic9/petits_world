@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     <LayoutWithoutBg>
       <div className="mx-2 lg:mx-12 overflow-y-hidden font-medium text-sm">
         <h1 className="underline font-semibold mb-2">Privacy Policy</h1>
-        <p>Last updated: April 04, 2024</p>
+        <p>Last updated: August 08, 2024</p>
         <p>
           This Privacy Policy describes Our policies and procedures on the
           collection, use and disclosure of Your information when You use the
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
           the website, You agree to the collection and use of information in
           accordance with this Privacy Policy.
         </p>
-        <h2>Interpretation and Definitions</h2>
+        <h2 className="my-2">Interpretation and Definitions</h2>
         <h3>Interpretation</h3>
         <p>
           The words of which the initial letter is capitalized have meanings
@@ -120,7 +120,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
         </ul>
-        <h2>Collecting and Using Your Personal Data</h2>
+        <h2 className="my-2">Collecting and Using Your Personal Data</h2>
         <h3>Types of Data Collected</h3>
         <h4>Personal Data</h4>
         <p>
@@ -463,7 +463,7 @@ const PrivacyPolicy = () => {
           acceptable means to protect Your Personal Data, We cannot guarantee
           its absolute security.
         </p>
-        <h2>Children's Privacy</h2>
+        <h2 className="my-2">Children's Privacy</h2>
         <p>
           Our website does not address anyone under the age of 13. We do not
           knowingly collect personally identifiable information from anyone
@@ -479,7 +479,7 @@ const PrivacyPolicy = () => {
           require Your parent's consent before We collect and use that
           information.
         </p>
-        <h2>Links to Other Websites</h2>
+        <h2 className="my-2">Links to Other Websites</h2>
         <p>
           Our website may contain links to other websites that are not operated
           by Us. If You click on a third party link, You will be directed to
@@ -490,7 +490,7 @@ const PrivacyPolicy = () => {
           We have no control over and assume no responsibility for the content,
           privacy policies or practices of any third party sites or websites.
         </p>
-        <h2>Changes to this Privacy Policy</h2>
+        <h2 className="my-2">Changes to this Privacy Policy</h2>
         <p>
           We may update Our Privacy Policy from time to time. We will notify You
           of any changes by posting the new Privacy Policy on this page.
@@ -505,7 +505,7 @@ const PrivacyPolicy = () => {
           changes. Changes to this Privacy Policy are effective when they are
           posted on this page.
         </p>
-        <h2>Contact Us</h2>
+        <h2 className="my-2">Contact Us</h2>
         <p>
           If you have any questions about this Privacy Policy, You can contact
           us:

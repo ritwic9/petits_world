@@ -12,6 +12,7 @@ import img1 from "../images/svg/age.svg";
 import img2 from "../images/svg/batch.svg";
 import img3 from "../images/svg/clock.svg";
 import starProgram from "../images/svg/programStar.svg";
+import SEO from "../components/SeoUpdated";
 
 const programs = () => {
   const imgAlt1 = "Age group icon";
@@ -32,9 +33,18 @@ const programs = () => {
   return (
     <LayoutWithoutRepeat>
       {/* Seo added below */}
-      <Seo
+      <SEO
         title="Our Programs"
         description="Choose from a variety of programs, discover the magic of play based learning coupled with social skill development and field trips!"
+        pathname="/programs"
+        keywords={[
+          "petits",
+          "playschool",
+          "daycare",
+          "nursery",
+          "kids",
+          "programs",
+        ]}
       />
       {/* Hero Section */}
       <section className="m-2 lg:mx-12 h-full">
